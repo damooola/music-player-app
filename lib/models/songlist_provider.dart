@@ -9,17 +9,17 @@ class SongListProvider extends ChangeNotifier {
         songName: "Perfect",
         artistname: "Ed Sheeran",
         coverArtImagePath: "assets/images/÷.jpg",
-        audioPath: "assets/audio/Perfect.mp3"),
+        audioPath: "audio/Perfect.mp3"),
     Song(
         songName: "Photograph",
         artistname: "Ed Sheeran",
         coverArtImagePath: "assets/images/x.jpg",
-        audioPath: "assets/audio/Photograph.mp3"),
+        audioPath: "audio/Photograph.mp3"),
     Song(
         songName: "Shivers",
         artistname: "Ed Sheeran",
         coverArtImagePath: "assets/images/=.jpg",
-        audioPath: "assets/audio/Shivers.mp3"),
+        audioPath: "audio/Shivers.mp3"),
   ];
 
 // audioplayer
