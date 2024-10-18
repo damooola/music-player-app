@@ -14,6 +14,7 @@ A music player application built with Flutter. This app demonstrates the impleme
 ```
 lib/
 ├── components/
+│   ├── my_drawer_tile.dart
 │   ├── my_drawer.dart
 │   └── neu_box.dart
 ├── models/
@@ -21,7 +22,12 @@ lib/
 │   └── songlist_provider.dart
 ├── screens/
 │   ├── home_screen.dart
+│   ├── settings_screen.dart
 │   └── song_screen.dart
+├── theme/
+│   ├── dark_mode.dart
+│   ├── light_mode.dart
+│   ├── theme_provider.dart
 └── main.dart
 ```
 
@@ -45,7 +51,7 @@ lib/
 1. Clone the repository:
 
 ```bash
-git clone [repository-url]
+git clone [https://github.com/damooola/music-player-app.git]
 ```
 
 2. Install dependencies:
@@ -73,8 +79,8 @@ Add these to your `pubspec.yaml`:
 dependencies:
   flutter:
     sdk: flutter
-  provider: ^6.0.0
-  audioplayers: ^5.0.0
+  provider: ^6.1.2
+  audioplayers: ^6.1.0
 ```
 
 ## File Structure Details
@@ -127,7 +133,7 @@ final List<Song> _songList = [
         songName: "Song Name",
         artistname: "Artist Name",
         coverArtImagePath: "assets/images/cover.jpg",
-        audioPath: "assets/audio/song.mp3"
+        audioPath: "audio/song.mp3"
     ),
     // Add more songs...
 ];
