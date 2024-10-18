@@ -183,6 +183,4 @@ Feel free to submit issues and enhancement requests!
 
 ## Acknowledgments
 
-- Flutter team for the amazing framework
 - audioplayers package maintainers
-- Provider package maintainers
